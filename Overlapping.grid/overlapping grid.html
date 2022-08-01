@@ -1,0 +1,74 @@
+<DOCTYPE!>
+         <html lang ="en">
+		 <head>
+		      <title>overlapping grid</title>
+			  <style>
+			  body{
+			  font-family:arial,helvetica;
+			  }
+			  h1{
+			    padding:0 0 0 40px}
+				.container{
+				 background:lightgray;
+				 width:300px;
+				 height:280px;
+				 margin:50px auto 0;
+				 
+				 display:grid;
+				 grid-template-columns:repeat(2,150px);
+				 grid-template-rows:repeate(2,150px);
+				 }
+				 .item1{
+				 max-width:150px;
+				 }
+				 
+				 .item1{background:yellowgreen;
+				 grid-column:1 /span 2;
+				 grid-row:1 / span 2;
+				align-self:start;
+				 }
+				 .item2{
+				 max-width:150px;
+				 }
+				 .item2{background:red;
+				 grid-column:1 /span 2;
+				 grid-row:1 / span 2;
+				align-self:center;
+				justify-self:center;
+				z-index:1;
+				}
+				 .item4{
+				 max-width:150px;
+				 }
+				 .item4{
+				 background:yellow;
+				 grid-column:1 /span 2;
+				 grid-row:1 / span 2;
+				align-self:end;
+				justify-self:end;
+				
+				}
+				
+				 
+				 .items{color:#fff;font-size:20px;font-weight:bold;}
+				 
+				
+				
+				</style>
+				</head>
+				<body>
+				     <h1>YAHO BABA: OVERLAPPING GRID</h1>
+					 <div class="container">
+					 <div class="item item1">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scram	   
+                                               Lorem Ipsum has been </div>
+					 <div class="item item2">twoLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scram	   
+                                               Lorem Ipsum has been</div>
+					 
+					 
+					 <div class="item item4">fourLorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scram,</div>	   
+					 
+					 </div>
+					 </body>
+					 </html>
+					 
+				
