@@ -1,0 +1,32 @@
+.container {
+	display: flex;
+	justify-content:space-between ;
+	border: 2px solid black;
+	padding: 5px;
+	flex-wrap:nowrap;
+
+}
+ 
+ img{
+ 	transition: all 1s;
+ 	width: 250px;
+ 	height: 300px;
+ }
+img:hover{
+	transform:scale(1.1) ;
+}
+h1:hover{
+	color:black ;
+	transform:scale(1.1) ;
+	
+}
+body{
+	text-align: center;
+
+}
+h1{
+	border: 2px solid black;
+	background: lightblue; 
+	width: 50%;
+	text-align: center;
+}
