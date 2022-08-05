@@ -7,7 +7,15 @@ h3{
 body{
 	background-color: #2c3e50;
 }
+.Main{
+	display: flex;
+	color: white;
+	flex-flow: column;
+	align-items: center;
+	border: 5px solid black;
+}
 .container1{
+
 	height: 300px;
 	width: 500px;
 	display: flex;
