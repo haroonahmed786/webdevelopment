@@ -1,0 +1,40 @@
+ .container{
+ 	background: gray;
+ }
+ .sub-container{
+            border: 1px solid black;	
+            width: 800px;
+            display: flex;
+            height: 500px;
+           text-transform: uppercase;
+           flex-flow: column;
+ 
+}
+.item1{
+	border: 2px solid black;
+	align-content: flex-start;
+	flex-grow: 1;
+	background: wheat;
+
+	
+}
+.item2{
+	border: 2px solid black;
+   
+    background: yellow ;
+	
+}
+.item3{
+	border: 2px solid black;
+	flex-grow: 1;
+	background: yellowgreen;
+
+	
+}
+.item4{
+	border: 2px solid black;
+	
+	background: bisque;
+
+	
+}

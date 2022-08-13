@@ -1,0 +1,26 @@
+.container{
+    
+}
+ .sub-container{
+            border: 1px solid black;
+            display: flex;
+            height: 300px;
+            width: 400px;
+            flex-flow: column;
+ }
+ .item1{
+    border: 1px solid black;
+    display: flex;
+    width: 100px;
+    background: yellowgreen;
+    flex-shrink: 10
+
+
+ }
+ .item2{
+    border: 1px solid black;
+    width: 100px;
+    background: lightblue;
+    display: flex;
+    flex-shrink: 0
+ }

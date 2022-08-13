@@ -1,0 +1,23 @@
+.container{
+	
+}
+.navbar ul{	
+     display: flex;
+     background: yellow;
+     height: 50px;
+     justify-content: center;
+     align-items: center;
+     justify-content: space-around;
+     list-style-type: none;
+     color: black;
+     flex-grow: 1;
+}
+.navbar li a{
+             text-decoration: none;
+	         font-size: 20px;
+	         transform:5s all in ease;
+	         
+}
+.navbar ul :hover{
+	         background: yellowgreen ;
+}
