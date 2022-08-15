@@ -1,17 +1,29 @@
-.Header{
+ *{
+  box-sizing: border-box;	
+  padding: 0;
+  margin: 0;
+ }
+ body{
+ 	background: #E1E7E4;
+ }
+ .Header{
 	
 	background: black;
 	height: 200px;
+
 	
 	
 }
 .Header h1{
 	display: flex;
 	justify-content: center;
+	text-align: center;
 	color: white;
 	padding-top: 60px;
 	margin-bottom: 0;
 	text-transform: uppercase;
+	align-items: center;
+	margin-left: 90px;
 }
 .Header h3{
 	text-align: center;
@@ -28,9 +40,9 @@
 }
 .num1{
 	border: 1px solid yellow;
-    flex-grow: 0;
-    flex-basis:20%;
-    text-align: center;
+        flex-grow: 0;
+       flex-basis:40%;
+       text-align: center;
 }
 
 .Nav-Bar :hover {
@@ -39,31 +51,70 @@
        
 }
 .num2{
-	border: 1px solid yellow;
-    flex-grow: 0;
-    flex-basis:20%;
-    text-align: center;
+	
+        flex-grow: 0;
+       flex-basis:40%;
+      text-align: center;
 }
-.section{
+.container1{
 	display: flex;
-}
- .left{
-	
-	
+	padding:0 0 0 15px;
 	
 }
-.right{
-	margin: 10px 5px 5px 10px;
+.left-side{
+	border: 2px solid black;
+	margin-top: 5px;
 	display: flex;
-	height: 250px;
-	width: 250px;
+	justify-content: space-between;
+	flex-flow: row;
 }
-.right img{
-	margin-right: 8px;
+.card1{
+     flex-basis: 49%;
 }
-.right img h3{
-	border: 1px solid black;
+.card1 h1{
+	border: 2px solid black;
 	background: yellow;
-	width:80px;
-	height: 50px;
+	
+
 }
+.card1 p{
+
+}
+.card2{
+      flex-basis: 49%;
+}
+.card2 h1{
+         border: 2px solid black;
+	background: yellow;
+	
+}
+.card2 p{
+
+}
+/*.card3{
+
+}
+.card3 h1{
+
+}
+.card3 p{
+	
+}*/
+
+img{
+   display: block;
+   width: 100%;
+}
+	
+
+
+.right-side{
+	
+	border: 2px solid black;
+        flex: 0 0 320px;
+        margin-top: 5px;
+  
+}
+
+	
+
