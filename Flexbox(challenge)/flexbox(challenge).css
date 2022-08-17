@@ -38,23 +38,25 @@
 	  justify-content: space-around;
 
 }
-.num1{
+.Num1{
 	  border: 1px solid yellow;
           flex-grow: 0;
           flex-basis:40%;
           text-align: center;
+          align-items: center;
 }
 
 .Nav-Bar :hover {
           transform: 1sec all in ease;
           background: yellowgreen;
-       
+         
 }
-.num2{
+.Num2{
 	
           flex-grow: 0;
           flex-basis:40%;
           text-align: center;
+          
 }
 .container1{
 	  display: flex;
@@ -166,77 +168,215 @@
           text-align: center;
 }
 .watch-con1{
-	flex-basis: 30%;
 	margin-top: 30px;
+	display: flex;
+	flex-basis: 100%;
+}	
+.left-side1{
+	flex-basis: 30%;
+}
+.right-side1{
+	flex-basis: 70%;
+	border: 2px solid black;
+	display: flex;
+	flex-flow: column;
+	background: black;
+	color: white;
+	
+
+}
+.heading2{
+	border: 1px solid black;
+	display: flex;
+	margin-top: 80px;
+	padding-left: 50px;
 	
 }
-.heading2{
-        border: 1px solid black;
-        flex-basis: 70%;
-	margin-top: 30px;
-	background: black;
-	color: white;
+.list-items{
+	border: 1px solid black;
+	margin-top: 5px;
+	
+	   
 }
-.heading2 h1{
-	padding: 80px 20px 0 110px;
+.list-items ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-right: 60px;
 }
-.heading2 ul{
-	   padding:0 0 0 31px; 
-	   display: flex;
-	   margin-top: 5px;
-	   justify-content:space-evenly;
-	   list-style: none;
+.paragraph{
+	display: flex;
+	border: 1px solid black;
+	padding-left: 50px;
+	margin-top: 10px;
+
 }
-.heading2 p{
-	   padding:0 0 0 109px; 
-	   margin-top: 10px;
-}
-.heading2 h4{
-	   padding:0 0 0 109px; 
-	   margin-top: 10px;
+p1{
+       margin-left: 50px;
+       margin-top: 25px;	
 }
 .watch-con2{
-	flex-basis: 30%;
-	margin-top: 30px;
-	order: 2;
+	display: flex;
+	flex-basis: 100%;
+	margin-top: 20px;
 }
-.heading2{
-        border: 1px solid black;
-        flex-basis: 70%;
-	margin-top: 30px;
+.left-side2{
+	flex-basis: 30%;
+	order: 2;
+        
+}
+.right-side2{
+	flex-basis: 70%;
+	border: 2px solid black;
+	display: flex;
+	flex-flow: column;
 	background: black;
 	color: white;
+	
+
 }
-.heading2 h1{
-	padding: 80px 20px 0 110px;
+.heading3{
+	 display: flex;
+	 margin-top: 80px;
+	 padding-left: 50px;
+	 border: 1px solid black;
 }
-.heading2 ul{
-	   padding:0 0 0 31px; 
-	   display: flex;
-	   margin-top: 5px;
-	   justify-content:space-evenly;
-	   list-style: none;
+.list-items1{
+	display: flex;
+	border: 1px solid black;
+	margin-top: 5px;	   
 }
-.heading2 p{
-	   padding:0 0 0 109px; 
-	   margin-top: 10px;
-}
-.heading2 h4{
-	   padding:0 0 0 109px; 
-	   margin-top: 10px;
+.list-items1 ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	padding-right:60px;
 }
 
+.paragraph{
+	display: flex;
+	border: 1px solid black;
+}
+.Download{
+	flex-basis: 100%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.Download-con{
+	flex-basis: 100%;
+	margin-top: 20px;
+}
+.Download-con1{
+	flex-basis: 100%;
+	display: flex;
+}
+.sub-left{
+
+	flex-basis: 20%;
+}
+.sub-con{
+	flex-basis: 60%;
+	border: 1px solid black;
+}
+.sub-right{
+	flex-basis: 20%;
+	border: 1px solid yellow;
+	background: yellow;
+}
+.sub-right h1{
+	     display: flex;
+	    justify-content:center;
+            margin-top: 50px;
+}
+.sub-right h4{
+	display: flex;
+	justify-content: center;
+}
+.Movies{
+	flex-basis: 100%;
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+.Movies-con{
+	 flex-basis: 100%;
+	 display: flex;
+	 flex-wrap: wrap;
+	 margin-top: 20px;
+	 justify-content: space-between;
+}
+.Movies-card1{
+	flex-basis: 30%;
+	display: flex;
+        padding: 3px;
+}
+.Movies-card2{
+	flex-basis:40%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card3{
+	flex-basis: 30%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card4{
+	flex-basis: 60%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card5{
+	flex-basis: 40%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card6{
+	flex-basis: 40%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card7{
+	flex-basis: 20%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card8{
+	flex-basis: 40%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card9{
+	flex-basis: 50%;
+	display: flex;
+	padding: 3px;
+}
+.Movies-card10{
+	flex-basis: 50%;
+	display: flex;
+	padding: 3px;
+}
+.footer{
+	border: 1px solid black;
+	background: black;
+	color: white;
+	display: flex;
+	margin-left: 12px;
+	height: 50px;
+	padding: 5px;
+
+}
+		
 img{
         display: block;
         width: 100%;
 }
 
+
 .right-side{
-	
 	  border: 2px solid black;
           flex: 0 0 320px;
-          margin-top: 5px;
-  
+          margin-top: 5px;  
 }
 
 	
