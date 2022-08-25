@@ -1,0 +1,24 @@
+.parents{
+	text-align: center;
+}
+.father{
+	display: flex;
+}
+.son{
+	display: flex;
+}
+body{
+	background: gray;
+}
+.son img{
+		width: 150px;
+		height: 150px;
+	}
+@media  (max-width:768px){
+	.father{
+		display: block;
+	}
+	.son img{
+		width: 100%;
+	
+}
