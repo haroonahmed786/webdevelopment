@@ -3,12 +3,13 @@
          <head>
          	<title>Challenge</title>
          	<link rel="stylesheet" type="text/css" href="flexbox(Challenge).css">
+            <link rel="stylesheet" type="text/css" href="lightbox.css">
          </head>
          	<body>
          	<div class="Main-Container">
          		<div class="Header">
          				<h1>THE MOVIES HOME</h1>
-         				<h3><i>Set back/relax/watch</i></h3>
+         				<h3><i>Set back|relax|watch</i></h3>
                 </div>      
          			<div class="Nav-Bar">
                        <div class="Num1">
@@ -122,7 +123,7 @@
                                </div>
                                <div class="Download-con1">
                                    <div class="sub-left">
-                                    <img src="images/img_20.jpg">
+                                    <img src="images/img_20.jpg" height="300px">
                                    </div>
                                    <div class="sub-con">
                                        <div class="box1">
@@ -155,34 +156,44 @@
                                 <div class="Movies"><h1>Movies Gallery</h1></div>
                                 <div class="Movies-con">
                                     <div class="Movies-card1">
-                                        <img src="images/gallery_1.jpg">  
+                                          <a href="images/gallery_1.jpg" data-lightbox="image">
+                                            <img src="images/gallery_1.jpg" alt="" height="300px"> </a> 
                                     </div>
                                     <div class="Movies-card2">
-                                        <img src="images/gallery_2.jpg">  
+                                          <a href="images/gallery_2.jpg" data-lightbox="image">
+                                            <img src="images/gallery_2.jpg" alt="" height="300px"> </a>
                                     </div>
                                     <div class="Movies-card3">
-                                        <img src="images/gallery_3.jpg">  
+                                          <a href="images/gallery_3.jpg" data-lightbox="image">
+                                            <img src="images/gallery_3.jpg" alt="" height="300px"> </a>  
                                     </div>
                                     <div class="Movies-card4">
-                                        <img src="images/gallery_4.jpg">  
+                                          <a href="images/gallery_4.jpg" data-lightbox="image">
+                                            <img src="images/gallery_4.jpg" alt="" height="300px"> </a>
                                     </div>
                                     <div class="Movies-card5">
-                                        <img src="images/gallery_5.jpg">  
+                                          <a href="images/gallery_5.jpg" data-lightbox="image">
+                                            <img src="images/gallery_5.jpg" alt="" height="300px"> </a> 
                                     </div>
                                     <div class="Movies-card6">
-                                        <img src="images/gallery_6.jpg">  
+                                          <a href="images/gallery_6.jpg" data-lightbox="image">
+                                            <img src="images/gallery_6.jpg" alt="" height="300px"> </a>  
                                     </div>
                                     <div class="Movies-card7">
-                                        <img src="images/gallery_7.jpg">  
+                                          <a href="images/gallery_7.jpg" data-lightbox="image">
+                                            <img src="images/gallery_7.jpg" alt="" height="300px"> </a>  
                                     </div>
                                     <div class="Movies-card8">
-                                        <img src="images/gallery_8.jpg">  
+                                          <a href="images/gallery_8.jpg" data-lightbox="image">
+                                            <img src="images/gallery_8.jpg" alt="" height="300px"> </a> 
                                     </div>
                                     <div class="Movies-card9">
-                                        <img src="images/gallery_9.jpg">  
+                                          <a href="images/gallery_9.jpg" data-lightbox="image">
+                                            <img src="images/gallery_9.jpg" alt="" height="300px">  </a>
                                     </div>
                                     <div class="Movies-card10">
-                                        <img src="images/gallery_10.jpg">  
+                                          <a href="images/gallery_10.jpg" data-lightbox="image">
+                                            <img src="images/gallery_10.jpg" alt="" height="300px"> </a> 
                                     </div>
                                 </div>
                         </div>
@@ -247,6 +258,12 @@
                            <div class="footer">
                                Flex-box (challenge) Made by Haroon Ahmed!
                            </div>
+
+                             <!-- jQuery -->
+                           <script type="text/javascript" src="js/jquery.js"></script>
+                           <script src="js/lightbox.min.js"></script>
+                           <!-- Our Script File -->
+                          <script type="text/javascript" src="js/main.js"></script>
 
          	</body>
      </html>     	
