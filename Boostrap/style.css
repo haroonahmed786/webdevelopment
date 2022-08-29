@@ -1,0 +1,18 @@
+.subcon{
+	
+	display: flex;
+	flex-basis: 100%;
+}
+.img{
+	
+	display: flex;
+	flex-basis: 20%;
+	justify-content:center;
+	padding-top: 30px;
+}
+.head{
+	
+	display: flex;
+	flex-basis: 80%;
+	justify-content: flex-start;
+}
